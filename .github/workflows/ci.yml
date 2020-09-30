@@ -3,7 +3,7 @@ on:
   pull_request:
     branches: [develop]
 
-job:
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
@@ -17,4 +17,3 @@ job:
     - run: npm test -- --coverage
       env:
         CI: true
-        
