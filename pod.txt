@@ -1,0 +1,6 @@
+Server:    100.64.0.10
+Address 1: 100.64.0.10 kube-dns.kube-system.svc.cluster.local
+
+Name:      100.122.0.3
+Address 1: 100.122.0.3
+pod "test" deleted
